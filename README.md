@@ -141,7 +141,7 @@ Stop writing long system prompts. This workspace pre-loads the AI's cognitive ar
 ### Step 1: Clone & Rename (The "Mold")
 Treat this repository as a factory mold. Clone it, then rename the folder to your project name.
 ```bash
-git clone https://github.com/study8677/cursor-agent-workspace-template.git my-agent-project
+git clone https://github.com/06T/CursorSetup.git my-agent-project
 cd my-agent-project
 # Now you are ready. No setup required.
 ```
@@ -335,7 +335,7 @@ Stop writing long system prompts. This workspace pre-loads the AI's cognitive ar
 ### Step 1: Clone & Rename (The "Mold")
 Treat this repository as a factory mold. Clone it, then rename the folder to your project name.
 ```bash
-git clone https://github.com/study8677/cursor-agent-workspace-template.git my-agent-project
+git clone https://github.com/06T/CursorSetup.git my-agent-project
 cd my-agent-project
 # Now you are ready. No setup required.
 ```
@@ -601,11 +601,11 @@ A massive thank you to the community members who help build this project:
   - Added dynamic tools and context loading (Fixes #4)
   - New feature: Add multi-agent cluster protocol (Fixes #6)
 
-**Want to contribute?** Check out our [Issues](https://github.com/study8677/cursor-agent-workspace-template/issues) page!
+**Want to contribute?** Check out our [Issues](https://github.com/06T/CursorSetup/issues) page!
 
 ## 💡 Call for Ideas: Swarm Protocol
 
 We value **ideas** as much as code! 
 We are currently brainstorming the architecture for **Phase 6: Multi-Agent Swarm**. If you provide a solid architectural suggestion or a detailed design that gets adopted, **you will be added to our README as a Contributor**.
 
-Don't hesitate to share your thoughts in the [Issues](https://github.com/study8677/cursor-agent-workspace-template/issues), even if you don't have time to write the implementation.
+Don't hesitate to share your thoughts in the [Issues](https://github.com/06T/CursorSetup/issues), even if you don't have time to write the implementation.
