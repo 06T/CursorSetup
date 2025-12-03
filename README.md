@@ -1,11 +1,11 @@
 # 🪐 Cursor Agent Workspace Template (Enterprise Edition)
 
 ![License](https://img.shields.io/badge/License-MIT-green)
-![OpenAI](https://img.shields.io/badge/AI-OpenAI_Compatible-blue)
+![Cursor](https://img.shields.io/badge/AI-Cursor_Local_Models-blue)
 ![Architecture](https://img.shields.io/badge/Architecture-Event_Driven-purple)
 ![Memory](https://img.shields.io/badge/Context-Infinite-orange)
 
-Welcome to the **Cursor Agent Workspace Template**. This is a production-grade starter kit for building autonomous agents optimized for Cursor IDE, using OpenAI-compatible APIs—and proudly "Anti-LangChain" thanks to its minimal, transparent architecture.
+Welcome to the **Cursor Agent Workspace Template**. This is a production-grade starter kit for building autonomous agents optimized for Cursor IDE, using Cursor's built-in local models—and proudly "Anti-LangChain" thanks to its minimal, transparent architecture.
 
 ## 📝 Attribution & Origin
 
@@ -15,9 +15,9 @@ Welcome to the **Cursor Agent Workspace Template**. This is a production-grade s
 
 This version has been **adapted for Cursor IDE usage** with the following modifications:
 
-- ✅ **API Integration**: Replaced Google Gemini API with OpenAI-compatible API (GPT-4o, GPT-4 Turbo, etc.)
+- ✅ **Model Integration**: Uses Cursor's built-in local models (automatically detected from Cursor's active model)
 - ✅ **Branding**: Renamed from "Antigravity" to "Cursor" throughout the codebase
-- ✅ **Configuration**: Updated settings to use `OPENAI_API_KEY` instead of `GOOGLE_API_KEY`
+- ✅ **Configuration**: No API keys required—automatically uses Cursor's active model configuration
 - ✅ **Directory Structure**: Renamed `.antigravity/` to `.cursor/` for consistency
 - ✅ **Documentation**: Updated all references, examples, and instructions for Cursor IDE
 
@@ -25,7 +25,7 @@ This version has been **adapted for Cursor IDE usage** with the following modifi
 
 **Original License**: MIT (preserved)
 
-All core architecture, features, and design principles from the original template remain intact. This fork simply adapts it for use with Cursor IDE and OpenAI-compatible models instead of Google Antigravity and Gemini.
+All core architecture, features, and design principles from the original template remain intact. This fork simply adapts it for use with Cursor IDE and Cursor's built-in local models instead of Google Antigravity and Gemini.
 
 ## 🌟 Project Philosophy
 
@@ -93,7 +93,7 @@ sequenceDiagram
 
 - 🧠 **Infinite Memory Engine**: Recursive summarization automatically compresses history. Context limits are a thing of the past.
 - 🛠️ **Universal Tool Protocol**: Generic ReAct pattern. Just register any Python function in `available_tools`, and the Agent learns to use it.
-- ⚡️ **OpenAI Compatible**: Optimized for GPT-4o, GPT-4 Turbo, and other OpenAI-compatible models with function calling capabilities.
+- ⚡️ **Cursor Native**: Automatically uses Cursor's active local model—no API keys required. Works seamlessly with Cursor's built-in AI capabilities.
 
 ## 🚀 Quick Start
 
@@ -287,7 +287,7 @@ sequenceDiagram
 
 - 🧠 **Infinite Memory Engine**: Recursive summarization automatically compresses history. Context limits are a thing of the past.
 - 🛠️ **Universal Tool Protocol**: Generic ReAct pattern. Just register any Python function in `available_tools`, and the Agent learns to use it.
-- ⚡️ **OpenAI Compatible**: Optimized for GPT-4o, GPT-4 Turbo, and other OpenAI-compatible models with function calling capabilities.
+- ⚡️ **Cursor Native**: Automatically uses Cursor's active local model—no API keys required. Works seamlessly with Cursor's built-in AI capabilities.
 
 ## 🚀 Quick Start
 
@@ -391,7 +391,7 @@ MCP is an open protocol that standardizes how AI applications connect to externa
 **1. Enable MCP in your `.env`:**
 ```bash
 MCP_ENABLED=true
-OPENAI_API_KEY=your_key_here  # Optional, for real API usage
+# No API keys needed—uses Cursor's active local model automatically
 ```
 
 **2. Configure servers in `mcp_servers.json`:**
@@ -473,7 +473,7 @@ The `mcp_servers.json` includes ready-to-use configurations for:
 - 🌐 **Puppeteer**: Browser automation
 - 💬 **Slack**: Workspace integration
 
-Just enable the ones you need and add your API keys!
+Just enable the ones you need! The agent automatically uses Cursor's active local model—no additional API keys required.
 
 ### 🔧 Creating Custom MCP Servers
 
