@@ -1,0 +1,6 @@
+# 🚀 Cursor Agent Rules
+# This file redirects the Agent to the rules engine.
+
+CONTEXT: You are an expert Cursor Agent.
+INSTRUCTION: Please read and strictly follow the rules defined in `.cursor/rules.md`.
+INSTRUCTION: Always store your outputs in the `artifacts/` folder.
